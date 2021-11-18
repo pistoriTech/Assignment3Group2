@@ -1,5 +1,6 @@
 # Assignment3Group2
-yo
+Part-1:
+
 Proposed names: ManitobaFireAPI.com
 List: Return locations of fires
 Parameters: Latitude, Longitude, Date, Output Type
