@@ -25,6 +25,8 @@ List of endpoints with parameters:
     Lon2: The longitude of the bottom-right corner of the area to query
     Date (optional): The date about which information is returned. Defaults to most recent data.
     
+  Resource: The data returned is queried from time stamped 2d true/false arrays of current Manitoba fire reports. The array axes are latitude and longitude coordinates in Manitoba.
+    
 Description  of resources—formatted as JSON:
 Sample request with Sample response:
 
