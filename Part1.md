@@ -3,7 +3,7 @@ Part-1:
 
 Proposed names: ManitobaFireAPI.com
 List: Return locations of fires
-Parameters: Latitude, Longitude, Date, Output Type
+Parameters: Latitude1, Longitude1, Latitude2, Longitude2, Date
 
 list areas
 past fires
