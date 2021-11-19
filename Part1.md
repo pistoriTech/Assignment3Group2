@@ -18,3 +18,11 @@ List of endpoints with parameters:
   Endpoints, parameters and resources clearly describe
 Description  of resources—formatted as JSON:
 Sample request with Sample response:
+
+Example request
+  ManitobaFireAPI.com/rockwood/severity
+  Reutrns 
+  {
+    "onFire": "Yes",
+    "severity": "Extreme"
+  }
