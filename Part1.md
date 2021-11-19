@@ -27,3 +27,10 @@ Example request
     "onFire": "Yes",
     "severity": "Extreme"
   }
+  
+  ManitobaFireAPI.com/ManitobaFireAPI.com/?Lat1(50)?Lon1(-97)?Lat2(52)?Lon2(-93)?date(20210619)?severity
+  Reutrns 
+  {
+    "onFire": "No",
+    "severity": "Moderate"
+  }
