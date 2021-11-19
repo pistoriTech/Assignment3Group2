@@ -3,7 +3,7 @@ Part-1:
 
 Proposed names: ManitobaFireAPI.com
 List: Return locations of fires
-Parameters: Latitude1, Longitude1, Latitude2, Longitude2, Date
+Parameters: Lat, Lon1, Lat2, Lon2, Date
 
 list areas
 past fires
@@ -21,7 +21,7 @@ Description  of resources—formatted as JSON:
 Sample request with Sample response:
 
 Example request
-  ManitobaFireAPI.com/rockwood/severity
+  ManitobaFireAPI.com/?Lat1(50)?Lon1(-97)?Lat2(52)?Lon(-93?severity
   Reutrns 
   {
     "onFire": "Yes",
