@@ -21,7 +21,7 @@ Description  of resources—formatted as JSON:
 Sample request with Sample response:
 
 Example request
-  ManitobaFireAPI.com/?Lat1(50)?Lon1(-97)?Lat2(52)?Lon(-93?severity
+  ManitobaFireAPI.com/?Lat1(50)?Lon1(-97)?Lat2(52)?Lon2(-93?severity
   Reutrns 
   {
     "onFire": "Yes",
