@@ -16,5 +16,5 @@ List of endpoints with parameters:
   APi clearly described
   Suitable for a general audience
   Endpoints, parameters and resources clearly describe
-Description  of resources—formatted as JSO:
+Description  of resources—formatted as JSON:
 Sample request with Sample response:
