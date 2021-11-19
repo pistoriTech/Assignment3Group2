@@ -11,7 +11,8 @@ risk/fire danger
 
 Assignment Requirements:
 
-API Description:
+API Description:  This API will allow users to query different locations in Manitoba for their past and present Fire Danger ratings.
+
 List of endpoints with parameters:
   APi clearly described
   Suitable for a general audience
