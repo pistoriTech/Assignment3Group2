@@ -7,11 +7,11 @@ This API will allow users to query different locations in Manitoba for their pas
 #### Endpoint: 
 Simple **GET** request to https://ManitobaFireAPI.com. 
 #### Parameters:
-- Lat1: The latitude of the upper-left corner of the area to query.
-- Lon1: The longitude of the upper-left corner of the area to query.
-- Lat2: The latitude of the bottom-right corner of the area to query.
-- Lon2: The longitude of the bottom-right corner of the area to query
-- Date: (optional) The date about which information is returned. Defaults to most recent data.
+- **Lat1**: The latitude of the upper-left corner of the area to query.
+- **Lon1**: The longitude of the upper-left corner of the area to query.
+- **Lat2**: The latitude of the bottom-right corner of the area to query.
+- **Lon2**: The longitude of the bottom-right corner of the area to query
+- **Date**: (optional) The date about which information is returned. Defaults to most recent data.
 
 ### Description of resources—formatted as JSON
 The data returned is queried from time stamped 2d true/false arrays of current Manitoba fire reports. The array axes are latitude and longitude coordinates in Manitoba.
