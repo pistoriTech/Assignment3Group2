@@ -13,8 +13,11 @@ Simple **GET** request to https://ManitobaFireAPI.com.
 - **Lon2**: The longitude of the bottom-right corner of the area to query
 - **Date**: (optional) The date about which information is returned. Defaults to most recent data.
 
-### Description of resources—formatted as JSON
+### Description of resources
 The data returned is queried from time stamped 2d true/false arrays of current Manitoba fire reports. The array axes are latitude and longitude coordinates in Manitoba.
+- currentStatus: If there is ongoing fire or not
+- nearbyRisk: The severity of the fire
+- underControl: If the fire is under control or not
 
 ### Sample request
 `https://ManitobaFireAPI.com/?Lat1(50)?Lon1(-97)?Lat2(52)?Lon2(-93)`
@@ -35,7 +38,7 @@ The data returned is queried from time stamped 2d true/false arrays of current M
       "Lon2": 111.49,
       "Moving": "SE",
       "Speed": "1.5km/h",
-      "NearbyRisk": "low",
+      "nearbyRisk": "low",
       "underControl": "yes"
     },
     "msg": ""
