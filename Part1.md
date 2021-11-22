@@ -1,9 +1,10 @@
 # Assignment3 Group2
 Part-1:
 
-## Proposed names: ManitobaFireAPI.com
-## List: Return locations of fires
-## Parameters: Lat1, Lon1, Lat2, Lon2, Date
+### Proposed names: ManitobaFireAPI.com
+### List: Return locations of fires
+### Parameters: 
+Lat1, Lon1, Lat2, Lon2, Date
 
 list areas
 past fires
