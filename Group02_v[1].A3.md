@@ -4,7 +4,8 @@
 This API will allow users to query different locations in Manitoba for their past and present Fire Danger ratings.
 
 ### List of endpoints with parameters
-#### Endpoint: Simple **GET** request to https://ManitobaFireAPI.com. 
+#### Endpoint: 
+Simple **GET** request to https://ManitobaFireAPI.com. 
 #### Parameters:
 - Lat1: The latitude of the upper-left corner of the area to query.
 - Lon1: The longitude of the upper-left corner of the area to query.
