@@ -29,6 +29,31 @@ List of endpoints with parameters:
     
 Description  of resources—formatted as JSON:
 Sample request with Sample response:
+A response is received as:
+##  
+```
+[
+  {
+    "fire": {
+      "fireID": "MB21_1_2042",
+      "currentStatus":"burning",
+      "since": "11-11-2021",
+      "until": "now",
+      "area": "White Shell",
+      "Lat1": -83.01,
+      "Lon1": 111.09,
+      "Lat2": -82.71,
+      "Lon2": 111.49,
+      "Moving": "SE",
+      "Speed": "1.5km/h",
+      "NearbyRisk": "low",
+      "underControl": "yes"
+    },
+    "msg": ""
+  }
+]
+```
+
 
 Example request
   ManitobaFireAPI.com/?Lat1(50)?Lon1(-97)?Lat2(52)?Lon2(-93)?severity
