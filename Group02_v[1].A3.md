@@ -15,9 +15,9 @@ Simple **GET** request to https://ManitobaFireAPI.com.
 
 ### Description of resources
 The data returned is queried from time stamped 2d true/false arrays of current Manitoba fire reports. The array axes are latitude and longitude coordinates in Manitoba.
-- currentStatus: If there is ongoing fire or not
-- nearbyRisk: The severity of the fire
-- underControl: If the fire is under control or not
+- **currentStatus**: If there is ongoing fire or not
+- **nearbyRisk**: The severity of the fire
+- **underControl**: If the fire is under control or not
 
 ### Sample request
 `https://ManitobaFireAPI.com/?Lat1(50)?Lon1(-97)?Lat2(52)?Lon2(-93)`
