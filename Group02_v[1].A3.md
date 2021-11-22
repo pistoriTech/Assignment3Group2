@@ -38,8 +38,28 @@ The data returned is queried from time stamped 2d true/false arrays of current M
       "Lon2": 111.49,
       "Moving": "SE",
       "Speed": "1.5km/h",
+      "windSpeed":12km/h,
       "nearbyRisk": "low",
       "underControl": "yes"
+    },
+    "msg": ""
+  }
+  {
+    "risk": {
+      "fireID": "N/A",
+      "currentStatus":"potential",
+      "since": "11-11-2021",
+      "until": "now",
+      "area": "White Shell",
+      "Lat1": -83.01,
+      "Lon1": 111.09,
+      "Lat2": -82.71,
+      "Lon2": 111.49,
+      "Moving": "N/A",
+      "Speed": "N/A",
+      "windSpeed":12km/h,
+      "nearbyRisk": "dangerous",
+      "underControl": "following"
     },
     "msg": ""
   }
