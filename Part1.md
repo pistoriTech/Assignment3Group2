@@ -17,7 +17,7 @@ Assignment Requirements:
 **API Description:  This API will allow users to query different locations in Manitoba for their past and present Fire Danger ratings.**
 
 List of endpoints with parameters:
-  APi clearly described
+  API clearly described
   Suitable for a general audience
   Endpoints, parameters and resources clearly describe
   
@@ -60,7 +60,7 @@ A response is received as:
 
 Example request
   ManitobaFireAPI.com/?Lat1(50)?Lon1(-97)?Lat2(52)?Lon2(-93)?severity
-  Reutrns 
+  Returns 
   {
     "onFire": "Yes",
     "severity": "Extreme"
