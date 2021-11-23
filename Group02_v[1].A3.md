@@ -1,7 +1,7 @@
 ## Manitoba Fire Risk API [Group 2]
 
 ### API Description
-This API will allow users to query different locations in Manitoba for their past and present Fire Danger ratings.
+This API allows users to query different locations in Manitoba for their past and present Fire Danger ratings.
 
 ### List of endpoints with parameters
 #### Endpoint: 
