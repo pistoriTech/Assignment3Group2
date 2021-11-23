@@ -1,39 +1,29 @@
-# Assignment3 Group2
-Part-1:
+## Manitoba Fire Risk API [Group 2]
 
-### Proposed names: 
-ManitobaFireAPI.com
-### List: 
-Return locations of fires
-### Parameters: 
-Lat1, Lon1, Lat2, Lon2, Date
+### API Description
+This API will allow users to query different locations in Manitoba for their past and present Fire Danger ratings.
 
-list areas
-past fires
-risk/fire danger
+### List of endpoints with parameters
+#### Endpoint: 
+Simple **GET** request to https://ManitobaFireAPI.com. 
+#### Parameters:
+- **Lat1**(float): The latitude of the first corner of the area to query.
+- **Lon1**(float): The longitude of the first corner of the area to query.
+- **Lat2**(float): The latitude of the opposite corner of the area to query.
+- **Lon2**(float): The longitude of the opposite corner of the area to query
+- **Date**(string): (optional) The date about which information is returned. Defaults to most recent data.
 
-Assignment Requirements:
+### Description of resources
+The data returned is queried from time stamped 2d true/false arrays of current Manitoba fire reports. The array axes are latitude and longitude coordinates in Manitoba.
+- **currentStatus**(string): If there is ongoing fire or not
+- **nearbyRisk**(string): The severity of the fire
+- **underControl**(string): If the fire is under control or not
 
-**API Description:  This API will allow users to query different locations in Manitoba for their past and present Fire Danger ratings.**
+### Sample requests
+`https://ManitobaFireAPI.com/?Lat1(49)?Lon1(-100)?Lat2(55)?Lon2(-102)?Date(20210522)`  
+`https://ManitobaFireAPI.com/?Lat1(50)?Lon1(-97)?Lat2(52)?Lon2(-93)`
 
-List of endpoints with parameters:
-  API clearly described
-  Suitable for a general audience
-  Endpoints, parameters and resources clearly describe
-  
-  **Parameters:
-    Lat1: The latitude of the upper-left corner of the area to query
-    Lon1: The longitude of the upper-left corner of the area to query
-    Lat2: The latitude of the bottom-right corner of the area to query
-    Lon2: The longitude of the bottom-right corner of the area to query
-    Date (optional): The date about which information is returned. Defaults to most recent data.**
-    
- **Resource: The data returned is queried from time stamped 2d true/false arrays of current Manitoba fire reports. The array axes are latitude and longitude coordinates in Manitoba.**
-    
-Description  of resources—formatted as JSON:
-Sample request with Sample response:
-A response is received as:
-##  
+### Sample response
 ```
 [
   {
@@ -49,19 +39,31 @@ A response is received as:
       "Lon2": 111.49,
       "Moving": "SE",
       "Speed": "1.5km/h",
-      "NearbyRisk": "low",
+      "windSpeed":12km/h,
+      "nearbyRisk": "low",
       "underControl": "yes"
+    },
+    "msg": ""
+  }
+  {
+    "risk": {
+      "fireID": "N/A",
+      "currentStatus":"potential",
+      "since": "11-11-2021",
+      "until": "now",
+      "area": "White Shell",
+      "Lat1": -83.01,
+      "Lon1": 111.09,
+      "Lat2": -82.71,
+      "Lon2": 111.49,
+      "Moving": "N/A",
+      "Speed": "N/A",
+      "windSpeed":12km/h,
+      "nearbyRisk": "dangerous",
+      "underControl": "following"
     },
     "msg": ""
   }
 ]
 ```
 
-
-Example request
-  ManitobaFireAPI.com/?Lat1(50)?Lon1(-97)?Lat2(52)?Lon2(-93)?severity
-  Returns 
-  {
-    "onFire": "Yes",
-    "severity": "Extreme"
-  }
