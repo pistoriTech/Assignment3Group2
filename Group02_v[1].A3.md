@@ -20,7 +20,7 @@ The data returned is queried from time stamped 2d true/false arrays of current M
 - **underControl**(string): If the fire is under control or not
 
 ### Sample requests
-`https://ManitobaFireAPI.com/?Lat1(49)?Lon1(-100)?Lat2(55)?Lon2(-102)?Date(20211122)`  
+`https://ManitobaFireAPI.com/?Lat1(49)?Lon1(-100)?Lat2(55)?Lon2(-102)?Date(20210522)`  
 `https://ManitobaFireAPI.com/?Lat1(50)?Lon1(-97)?Lat2(52)?Lon2(-93)`
 
 ### Sample response
